@@ -9,12 +9,6 @@ pipeline {
     
     stages {
         
-        stage('Code Checkout'){
-            steps {
-                git branch: '$branch_name', credentialsId: 'github-credentials', url: 'https://github.com/gkdevops/simple-reactjs-app.git'
-            }
-        }
-        
         stage('NPM install') {
             steps {
                 sh 'npm install'
