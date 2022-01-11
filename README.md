@@ -16,7 +16,7 @@ The project Template can be used to build bigger projects
 ### https://aditya-sridhar.github.io/simple-reactjs-app
 This URL has the application deployed in
 
-## Prerequisites
+## Prerequisites - 1
 
 ### Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
